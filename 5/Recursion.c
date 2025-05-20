@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 //Criado a função fatorial que será usada no cálculo 
-int fatorial(int n){
+long long int fatorial(int n){
     printf("Calcular fatorial: (%d)\n", n);  
     //Este aqui é o caso base, sem ele o programa executa em loop infinito
     if (n == 0 || n == 1)
     {
-        return 1;
+        return 1LL; // Usar 1LL para indicar que é um long long literal
     }
 
     //Agora o metodo recursivo que faz o calculo acontecer
     else
     {
-        int resultado = n * fatorial(n - 1);  
+        long long int resultado = (long long int)n * fatorial(n - 1);  
         return resultado;
     }
 }
@@ -30,8 +30,8 @@ int main(){
         printf("Numero invalido! \n");  
     }
     else{
-        int resultado = fatorial(numero);  
-        printf("O resultado de %d! e: %d \n", numero, resultado);
+        long long int resultado = fatorial(numero);  
+        printf("O resultado de %d! e: %lld \n", numero, resultado); // Usar %lld para long long int
     }
     return 0;
 }

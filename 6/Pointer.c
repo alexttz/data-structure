@@ -27,8 +27,11 @@ int main(){
     Pessoa p1 = {17, 1.70};  //Declarando os valores dos atributos 
     Pessoa *prtPessoa = &p1;
 
+    Pessoa p2 = {21,1.80};
+    Pessoa *prtPessoa2 = &p2;
+
     printf("Idade %d\n", prtPessoa ->idade);   //Referencia os atributos declarados e exibe na tela
     printf("Altura %.2f\n", prtPessoa ->altura); 
 
     return 0;
-};
+}

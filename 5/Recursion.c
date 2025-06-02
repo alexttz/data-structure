@@ -6,7 +6,7 @@ long long int fatorial(int n){
     //Este aqui é o caso base, sem ele o programa executa em loop infinito
     if (n == 0 || n == 1)
     {
-        return 1LL; // Usar 1LL para indicar que é um long long literal
+        return 0;
     }
 
     //Agora o metodo recursivo que faz o calculo acontecer

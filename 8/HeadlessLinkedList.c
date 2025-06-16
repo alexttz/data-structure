@@ -44,3 +44,33 @@ int main() {
 
     return 0;
 }
+
+/*
+
+Lista sem cabeça:
+
+Vantagens:
+Menos uso de memória (não tem o nó extra).
+
+É mais direta para listas pequenas/simples.
+
+Desvantagens:
+Para inserir/remover no início, você precisa de lógica especial (mexer no ponteiro da lista direto).
+
+///////
+
+Lista com cabeça:
+
+Vantagens:
+Código de inserção e remoção mais simples e uniforme (inclusive no início da lista).
+
+Evita bugs ao manipular o primeiro nó, já que a cabeça nunca muda.
+
+Muito útil em listas circulares, duplamente encadeadas e listas ordenadas.
+
+Desvantagens:
+Usa um pouco mais de memória (1 nó a mais).
+
+Pode parecer mais confuso no começo.
+
+*/

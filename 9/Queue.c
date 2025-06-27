@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Estrutura do nó da fila
+// Criando a estrutura do nó da fila
 typedef struct Nodo {
     int valor;
     struct Nodo *proximo;
@@ -13,7 +13,7 @@ typedef struct {
     Nodo *fim;
 } Fila;
 
-// Inicializamos a fila
+// Função onde nós inicializamos a fila
 void inicializarFila(Fila *f) {
     f->inicio = NULL;
     f->fim = NULL;

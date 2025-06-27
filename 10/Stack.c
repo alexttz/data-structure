@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Estruturamos o nó da pliha
+// Estruturamos o nó da pliha que usaremos
 typedef struct Nodo {
     int valor;
     struct Nodo *proximo;

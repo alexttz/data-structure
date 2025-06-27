@@ -143,6 +143,14 @@ int main() {
     empilhar(&pilha, 10);
     empilhar(&pilha, 20);
     empilhar(&pilha, 30);
+    empilhar(&pilha, 40);
+    empilhar(&pilha, 50);
+    empilhar(&pilha, 60);
+    empilhar(&pilha, 70);
+    empilhar(&pilha, 80);
+    empilhar(&pilha, 90);
+    empilhar(&pilha, 100);
+
 
     // Mostra a pilha atual
     printf("Pilha atual:\n");
@@ -161,3 +169,7 @@ int main() {
 
     return 0;
 }
+
+/*O uso da estrutura sem cabeça deve se dar quando as estruturas são simples e menor uso de memória
+Para projetos maiores, a estrutura com cabeça é mais adequada pois facilita muito em listas duplamentes encadeadas, filas circulares e listas ordenadas.
+*/

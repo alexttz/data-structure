@@ -97,3 +97,8 @@ int main() {
 
     return 0;
 }
+
+/*Fila é essencial quando queremos utilizar uma ordenação justa e sequencial
+O primeiro a entrar é sempre o primeiro é sair
+
+*/
